@@ -14,3 +14,8 @@ body {
     /*min-height: 100vh;*/
     background-color: rgb(99, 172, 95);
 }
+
+/* Header */
+#logo {
+    font-size: 3rem;
+}
