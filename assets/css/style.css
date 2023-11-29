@@ -11,8 +11,10 @@
 body {
     color: black;
     font-family: 'Dosis', sans-serif;
-    /*min-height: 100vh;*/
     background-color: rgb(241, 251, 253);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -29,5 +31,21 @@ header a {
     /* Remove underline */
     text-decoration: none;
     letter-spacing: 2px;
+    color: black;
+}
+
+/* Main content */
+main {
+    /* Push footer down */
+    flex: 1 0 auto;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    /* Remove underline */
+    text-decoration: none;
     color: black;
 }
