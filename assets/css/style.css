@@ -21,6 +21,13 @@ body {
 }
 
 #scissors-logo {
-    height: 2rem;
+    height: 3rem;
     margin-top: 1rem;
+}
+
+header a {
+    /* Remove underline */
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
 }
