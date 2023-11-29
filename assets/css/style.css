@@ -1,0 +1,16 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Remove default styles from the browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Default style */
+body {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    /*min-height: 100vh;*/
+    background-color: rgb(99, 172, 95);
+}
