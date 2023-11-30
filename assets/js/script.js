@@ -5,6 +5,7 @@ const playerImage = document.getElementById("player-image");
 const playerScore = document.getElementById("player-score");
 const cpuImage = document.getElementById("cpu-image");
 const cpuScore = document.getElementById("cpu-score");
+const result = docment.getElementById("result");
 
 /* Add event listener to all buttons */
 for (let button of buttons) {
@@ -24,8 +25,11 @@ function mainGame (playerChoice) {
     cpuImage.src = `assets/images/${choices[cpuChoice]}.png`;
     cpuImage.alt = choices[cpuChoice];
 
-    let result = checkWinner(playerChoice, choices[cpuChoice])
+    let resultGame = checkWinner(playerChoice, choices[cpuChoice])
 }
 
-
+function checkWinner(player, cpu) {
+    if (player === cpu) {
+        
+    }
 }
