@@ -46,10 +46,13 @@ main {
     justify-content: center;
 }
 
-.choices img {
+.choice {
     /* Avoid stretching of images */
     align-self: baseline;
     padding: 1rem 3rem;
+    /* Remove default button styling */
+    background: none;
+    border: none;
 }
 
 main h2 {
