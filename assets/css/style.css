@@ -41,6 +41,21 @@ main {
     flex: 1 0 auto;
 }
 
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choices img {
+    /* Avoid stretching of images */
+    align-self: baseline;
+    padding: 1rem 3rem;
+}
+
+main h2 {
+    text-align: center;
+}
+
 footer {
     text-align: center;
 }
