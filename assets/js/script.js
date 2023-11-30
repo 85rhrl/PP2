@@ -10,7 +10,12 @@ const cpuScore = document.getElementById("cpu-score");
 for (let button of buttons) {
     button.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
-        playGame(playerChoice);
+        mainGame(playerChoice);
     });
 }
 
+/* mainGame function */
+function mainGame (playerChoice) {
+    playerImage.src = `assets/images/${playerChoice}.png`
+    playerImage.alt = playerChoice;
+}
