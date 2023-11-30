@@ -50,7 +50,7 @@ main {
 .choice {
     /* Avoid stretching of images */
     align-self: baseline;
-    margin: 0rem 3rem;
+    margin: 0rem 1rem;
     padding: 0.5rem;
     /* Remove default button styling */
     background: none;
@@ -72,14 +72,14 @@ main h2 {
     background-color: cadetblue;
     border-radius: 2rem;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .cpu {
     background-color: mediumpurple;
     border-radius: 2rem;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 footer {
