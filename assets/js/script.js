@@ -22,5 +22,5 @@ function mainGame (playerChoice) {
 
     let cpuChoice = Math.floor(Math.random() * 3);
     cpuImage.src = `assets/images/${choices[cpuChoice]}.png`;
-    cpuImage.alt = ${choices[cpuChoice]};
+    cpuImage.alt = choices[cpuChoice];
 }
