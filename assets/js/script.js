@@ -23,4 +23,9 @@ function mainGame (playerChoice) {
     let cpuChoice = Math.floor(Math.random() * 3);
     cpuImage.src = `assets/images/${choices[cpuChoice]}.png`;
     cpuImage.alt = choices[cpuChoice];
+
+    let result = checkWinner(playerChoice, choices[cpuChoice])
+}
+
+
 }

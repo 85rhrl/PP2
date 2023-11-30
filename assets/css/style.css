@@ -82,6 +82,10 @@ main h2 {
     margin: 1rem;
 }
 
+#result {
+    text-align: center;
+}
+
 footer {
     text-align: center;
 }
