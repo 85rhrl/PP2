@@ -59,6 +59,26 @@ main h2 {
     text-align: center;
 }
 
+.player-cpu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.player {
+    background-color: cadetblue;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.cpu {
+    background-color: mediumpurple;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
 footer {
     text-align: center;
 }
