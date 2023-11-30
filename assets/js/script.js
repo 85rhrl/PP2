@@ -16,6 +16,11 @@ for (let button of buttons) {
 
 /* mainGame function */
 function mainGame (playerChoice) {
-    playerImage.src = `assets/images/${playerChoice}.png`
+    
+    playerImage.src = `assets/images/${playerChoice}.png`;
     playerImage.alt = playerChoice;
+
+    let cpuChoice = Math.floor(Math.random() * 3);
+    cpuImage.src = `assets/images/${choices[cpuChoice]}.png`;
+    cpuImage.alt = ${choices[cpuChoice]};
 }
