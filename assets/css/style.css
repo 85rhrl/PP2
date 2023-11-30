@@ -44,6 +44,7 @@ main {
 .choices {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .choice {
@@ -63,6 +64,7 @@ main h2 {
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .player {
