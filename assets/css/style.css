@@ -50,6 +50,9 @@ main {
 .choice {
     margin: 0rem 1rem;
     padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 main h2 {
@@ -78,6 +81,12 @@ main h2 {
 }
 
 #result {
+    text-align: center;
+}
+
+
+
+.rules {
     text-align: center;
 }
 
