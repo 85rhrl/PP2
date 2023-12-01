@@ -48,8 +48,6 @@ main {
 }
 
 .choice {
-    /* Avoid stretching of images */
-    align-self: baseline;
     margin: 0rem 1rem;
     padding: 0.5rem;
 }
