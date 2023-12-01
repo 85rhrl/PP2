@@ -18,16 +18,22 @@ for (let link of links) {
 /* mainGame function */
 function mainGame (playerChoice) {
     
+    /* Set the selected image from user */
     playerImage.src = `assets/images/${playerChoice}.png`;
     playerImage.alt = playerChoice;
 
+    /* Generate random number between 0, 1 or 2 */
     let cpuChoice = Math.floor(Math.random() * 3);
+
+    /* Set the image from cpu */
     cpuImage.src = `assets/images/${choices[cpuChoice]}.png`;
     cpuImage.alt = choices[cpuChoice];
 
+    /* Call checkWinner function */
     let resultGame = checkWinner(playerChoice, choices[cpuChoice])
 }
 
+/* Check who wins and updates score if someone wins */
 function checkWinner(player, cpu) {
     if (player === cpu) {
         result.textContent = "Tie";

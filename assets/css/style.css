@@ -20,11 +20,11 @@ body {
 
 /* Header */
 #logo {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #scissors-logo {
-    height: 3rem;
+    height: 2rem;
     margin: 1rem 0 0 1rem;
 }
 
@@ -49,7 +49,7 @@ main {
 
 .choice {
     margin: 0rem 1rem;
-    padding: 0.5rem;
+    padding: 0rem;
 }
 
 main h2 {
@@ -89,4 +89,22 @@ footer a {
     /* Remove underline */
     text-decoration: none;
     color: black;
+}
+
+/* When using smartphone in landscape mode */
+@media screen and (min-width: 576px) {
+    /* Header */
+    #logo {
+        font-size: 3rem;
+    }
+
+    #scissors-logo {
+        height: 3rem;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .choice {
+        margin: 0rem 1rem;
+        padding: 0.5rem;
+    }
 }
