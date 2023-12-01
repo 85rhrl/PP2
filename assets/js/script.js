@@ -1,15 +1,15 @@
 /* Declare constants for DOM elements */
-const buttons = document.getElementsByClassName("choice");
+const links = document.getElementsByClassName("choice");
 const choices = ["rock", "paper", "scissors"];
 const playerImage = document.getElementById("player-image");
 const playerScore = document.getElementById("player-score");
 const cpuImage = document.getElementById("cpu-image");
 const cpuScore = document.getElementById("cpu-score");
-const result = docment.getElementById("result");
+const result = document.getElementById("result");
 
 /* Add event listener to all buttons */
-for (let button of buttons) {
-    button.addEventListener("click", function () {
+for (let link of links) {
+    link.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
         mainGame(playerChoice);
     });
