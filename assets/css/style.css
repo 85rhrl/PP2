@@ -52,9 +52,6 @@ main {
     align-self: baseline;
     margin: 0rem 1rem;
     padding: 0.5rem;
-    /* Remove default button styling */
-    background: none;
-    border: none;
 }
 
 main h2 {
