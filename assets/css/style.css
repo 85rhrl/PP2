@@ -41,6 +41,10 @@ main {
     flex: 1 0 auto;
 }
 
+.choose {
+    font-size: 1.5rem;
+}
+
 .choices {
     display: flex;
     justify-content: center;
@@ -71,6 +75,7 @@ main h2 {
     border-radius: 2rem;
     padding: 1rem;
     margin: 1rem;
+    min-width: 7rem;
 }
 
 .cpu {
@@ -78,6 +83,7 @@ main h2 {
     border-radius: 2rem;
     padding: 1rem;
     margin: 1rem;
+    min-width: 7rem;
 }
 
 #result {
@@ -87,7 +93,12 @@ main h2 {
 
 
 .rules {
+    display: table;
     text-align: center;
+    background-color:lightpink;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem auto 1rem auto;
 }
 
 footer {
@@ -112,6 +123,10 @@ footer a {
     #scissors-logo {
         height: 3rem;
         margin: 1rem 0 0 1rem;
+    }
+
+    .choose {
+        font-size: 2rem;
     }
 
     .choice {
