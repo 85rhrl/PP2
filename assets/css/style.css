@@ -87,9 +87,10 @@ main h2 {
 }
 
 .ties-element {
+    /* For background-color purposes */
     display: table;
     text-align: center;
-    background-color:#7987BC;
+    background-color: #7987BC;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 0rem auto 1rem auto;
@@ -101,9 +102,10 @@ main h2 {
 }
 
 .rules {
+    /* For background-color purposes */
     display: table;
     text-align: center;
-    background-color:lightpink;
+    background-color: lightpink;
     border-radius: 1rem;
     padding: 0.5rem;
     margin: 1rem auto 1rem auto;
@@ -116,13 +118,14 @@ footer {
 }
 
 footer a {
-    /* Remove underline */
+    /* Remove underline and default color */
     text-decoration: none;
     color: black;
 }
 
-/* When using smartphone in landscape mode */
+/* When using smartphone in landscape mode or larger screens */
 @media screen and (min-width: 576px) {
+
     /* Header */
     #logo {
         font-size: 3rem;
@@ -133,10 +136,12 @@ footer a {
         margin: 1rem 0 0 1rem;
     }
 
+    /* Increase font-size */
     .choose {
         font-size: 2rem;
     }
 
+    /* Add more margin and padding with bigger screen */
     .choice {
         margin: 0rem 1rem;
         padding: 0.5rem;

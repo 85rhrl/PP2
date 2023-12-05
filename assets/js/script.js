@@ -1,4 +1,4 @@
-/* Declare constants for DOM elements */
+/* Declare constants and variables for DOM elements */
 const links = document.getElementsByClassName("choice");
 const choices = ["rock", "paper", "scissors"];
 let playerImage = document.getElementById("player-image");
@@ -17,8 +17,8 @@ for (let link of links) {
 }
 
 /* mainGame function */
-function mainGame (playerChoice) {
-    
+function mainGame(playerChoice) {
+
     /* Set the selected image from user */
     playerImage.src = `assets/images/${playerChoice}.png`;
     playerImage.alt = playerChoice;
@@ -31,7 +31,7 @@ function mainGame (playerChoice) {
     cpuImage.alt = choices[cpuChoice];
 
     /* Call checkWinner function */
-    let resultGame = checkWinner(playerChoice, choices[cpuChoice])
+    let resultGame = checkWinner(playerChoice, choices[cpuChoice]);
 }
 
 /* Check who wins and updates scores */
