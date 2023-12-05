@@ -5,6 +5,7 @@ let playerImage = document.getElementById("player-image");
 let playerScore = document.getElementById("player-score");
 let cpuImage = document.getElementById("cpu-image");
 let cpuScore = document.getElementById("cpu-score");
+let ties = document.getElementById("ties");
 let result = document.getElementById("result");
 
 /* Add event listener to all links */
@@ -33,10 +34,11 @@ function mainGame (playerChoice) {
     let resultGame = checkWinner(playerChoice, choices[cpuChoice])
 }
 
-/* Check who wins and updates score if someone wins */
+/* Check who wins and updates scores */
 function checkWinner(player, cpu) {
     if (player === cpu) {
         result.textContent = "Tie";
+        ties.innerText++;
     } else if (player === "rock") {
         if (cpu === "paper") {
             result.textContent = "CPU wins";
