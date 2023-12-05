@@ -31,7 +31,7 @@ function mainGame(playerChoice) {
     cpuImage.alt = choices[cpuChoice];
 
     /* Call checkWinner function */
-    let resultGame = checkWinner(playerChoice, choices[cpuChoice]);
+    checkWinner(playerChoice, choices[cpuChoice]);
 }
 
 /* Check who wins and updates scores */
