@@ -15,3 +15,8 @@ One example was the presentation of the 3 possible options (Rock, Paper and Scis
 
             ![index](tests\images\testing-html.png)
 
+- __CSS__
+    - The CSS code was tested using the CSS Validation Service and no errors were found.
+
+        - Style
+            ![style](tests\images\testing-css.png)
