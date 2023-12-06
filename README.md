@@ -33,3 +33,13 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     - Under every option there is a text describing the hand gesture for those who haven't played the game.
 
     ![Selection Area](docs/images/02-choices.png)
+
+- __Results Area__
+    - The Results Area is located under the Selection Area and displays the option chosen by the user and CPU.
+    - At the game start the Results Area displays a placeholder image showing the 3 possible options and all scores sets to zero.
+
+    ![Game Start](docs/images/03-results-start.png)
+
+    - As the game progresses the Results Area displays the latest option chosen by the user and CPU, their respectives scores, the number of Ties and the result of the latest game.
+
+    ![Game End](docs/images/04-results-end.png)
