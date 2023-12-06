@@ -17,7 +17,7 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     ![Homepage](docs/images/wireframe-home.png)
 
 - __Colors__
-    - The colors used for "Rock, Paper, Scissors!" were inspired by the 1980s with flashy colors that are easy on the eyes.
+    - The colors used for "Rock, Paper, Scissors!" were inspired by the 1980s with flashy colors that are easy on the eyes. The Background color of the "Ties" box is the combination of the background colors of Player and CPU and is considered an Easter Egg.
 
 ## Features
 
