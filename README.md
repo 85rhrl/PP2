@@ -49,3 +49,8 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     - A short explanation of how to reset the scores is also presented to the user.
 
     ![Rules](docs/images/05-rules.png)
+
+- __Footer__
+    - At the bottom of the page the user finds a simple footer with a link to the GitHub page where it can see the source code of the "Rock, Paper, Scissors!" game.
+
+    ![Footer](docs/images/06-footer.png)
