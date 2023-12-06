@@ -56,3 +56,11 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     - At the bottom of the page the user finds a simple footer with a link to the GitHub page where it can see the source code of the "Rock, Paper, Scissors!" game.
 
     ![Footer](docs/images/06-footer.png)
+
+### Features Left to Implement
+
+- __Implement a 5 rounds game mode__
+    - Create a game mode where 5 games are played and who has the most wins, wins.
+
+- __Add game sounds__
+    - Play different sounds depending if the user wins, ties or loses.
