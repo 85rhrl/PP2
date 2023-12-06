@@ -64,3 +64,7 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
 
 - __Add game sounds__
     - Play different sounds depending if the user wins, ties or loses.
+
+## Testing
+
+Several test were carried out, please refer to [TESTING.md](TESTING.md) for more information.
