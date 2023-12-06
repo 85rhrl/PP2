@@ -43,3 +43,9 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     - As the game progresses the Results Area displays the latest option chosen by the user and CPU, their respectives scores, the number of Ties and the result of the latest game.
 
     ![Game End](docs/images/04-results-end.png)
+
+- __Rules__
+    - The rules of the game are presented under the Results area.
+    - A short explanation of how to reset the scores is also presented to the user.
+
+    ![Rules](docs/images/05-rules.png)
