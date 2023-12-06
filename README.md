@@ -19,6 +19,8 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
 - __Colors__
     - The colors used for "Rock, Paper, Scissors!" were inspired by the 1980s with flashy colors that are easy on the eyes. The Background color of the "Ties" box is the combination of the background colors of Player and CPU and is considered an Easter Egg.
 
+    ![Colors](docs/images/colors.png)
+
 ## Features
 
 ### Existing Features
