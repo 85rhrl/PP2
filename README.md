@@ -18,3 +18,12 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
 
 - __Colors__
     - The colors used for "Rock, Paper, Scissors!" were inspired by the 1980s with flashy colors that are easy on the eyes.
+
+## Features
+
+### Existing Features
+
+- __Header__
+    - At the top of the page the user will find the header of the page "Rock, Paper, Scissors!" next to the hand gesture for scissors, this header also works as a link to refresh the webpage if the user wants to reset the scores.
+
+    ![Header](docs/images/01-header.png)
