@@ -27,3 +27,9 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     - At the top of the page the user will find the header of the page "Rock, Paper, Scissors!" next to the hand gesture for scissors, this header also works as a link to refresh the webpage if the user wants to reset the scores.
 
     ![Header](docs/images/01-header.png)
+
+- __Selection Area__
+    - To start playing "Rock, Paper, Scissors!" the user must chose either Rock, Paper or Scissors, this can be done by clicking either of the options which are presented as images of the Rock, Paper or Scissors hand gestures respectively.
+    - Under every option there is a text describing the hand gesture for those who haven't played the game.
+
+    ![Selection Area](docs/images/02-choices.png)
