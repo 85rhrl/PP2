@@ -12,7 +12,6 @@ One example was the presentation of the 3 possible options (Rock, Paper and Scis
     - The HTML code was tested using the W3C Markup Validator and no errors were found. One warning was found for an empty heading. This heading with id "result" is later filled with the JavaScript code.
 
         - Index
-
             ![index](tests\images\testing-html.png)
 
 - __CSS__
@@ -20,3 +19,9 @@ One example was the presentation of the 3 possible options (Rock, Paper and Scis
 
         - Style
             ![style](tests\images\testing-css.png)
+
+- __JavaScript__
+    - The JavaScript code was tested using the JSHint static code analysis tool and no errors were found. One warning was found as shown in the following image.
+
+        - JavaScript        
+            ![javascript](tests\images\testing-js.png)
