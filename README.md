@@ -81,3 +81,12 @@ GitHub pages was used to deploy the project by following the steps described bel
 6. After some time the project will be deployed.
 
 The deployed project can be viewed here: [https://85rhrl.github.io/PP2/index.html](https://85rhrl.github.io/PP2/index.html)
+
+## Credits
+
+### Code
+The code used for the favicon is based from the Love Running walkthrough project.
+
+The JavaScript code is based on the Portfolio Project Scope (ULTIMATE Rock Paper Scissors) video from Code Institute.
+
+The code for setting the background color of the Ties h3 element and Rules p element is based from a question posted on [Stackoverflow](https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti).
