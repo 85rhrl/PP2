@@ -104,6 +104,8 @@ The GitHub icon used for the footer link was taken from [fontawesome.com](https:
 
 The Dosis font was downloaded from [Google Fonts](https://fonts.google.com/specimen/Dosis)
 
+The image of the Rock, Paper, Scissors! webpage accross several devices used on the README introduction was generated using [UI.dev](https://ui.dev/amiresponsive)
+
 ### Acknowledgements
 
 I would like to express my gratitude to the following people:
