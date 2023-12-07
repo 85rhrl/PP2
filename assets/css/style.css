@@ -57,6 +57,8 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    /* Turn cursor to pointer due to lack of href atribute in a tag */
+    cursor: pointer;
 }
 
 main h2 {
