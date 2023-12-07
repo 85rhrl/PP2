@@ -68,3 +68,16 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
 ## Testing
 
 Several test were carried out, please refer to [TESTING.md](TESTING.md) for more information.
+
+## Deployment
+
+GitHub pages was used to deploy the project by following the steps described below:
+    
+1. Go to the [github.com/85rhrl/PP2](https://github.com/85rhrl/PP2) repository.
+2. Click on the Setting tab on the top. ([github.com/85rhrl/PP2/settings](https://github.com/85rhrl/PP2/settings))
+3. Click the Pages link on the left hand side menu. ([github.com/85rhrl/PP2/settings/pages](https://github.com/85rhrl/PP2/settings/pages))
+4. Select "Deploy from a branch" from the Source dropdown menu.
+5. Select "main" branch and press the "Save" button on the right.
+6. After some time the project will be deployed.
+
+The deployed project can be viewed here: [https://85rhrl.github.io/PP2/index.html](https://85rhrl.github.io/PP2/index.html)
