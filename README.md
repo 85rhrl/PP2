@@ -99,3 +99,11 @@ The Rock, Paper, Scissors hand gestures were downloaded from [flaticon.com](http
 The GitHub icon used for the footer link was taken from [fontawesome.com](https://fontawesome.com/icons/square-github?f=brands&s=solid)
 
 The Dosis font was downloaded from [Google Fonts](https://fonts.google.com/specimen/Dosis)
+
+### Acknowledgements
+
+I would like to express my gratitude to the following people:
+
+- Jubril Akolade for mentoring me, giving me guidance and encouragement.
+- Kay Welfare for their continuous help and encouragement.
+- My fellow classmates for their support and feedback.
