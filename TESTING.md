@@ -41,3 +41,7 @@ Lighthouse is an open-source automated tool to audit a page based on its Perform
 ### Manual Testing
 
 ![manual-testing](tests/images/manual-testing.png)
+
+### Unfixed Bugs
+
+No Bugs were left unfixed.
