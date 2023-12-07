@@ -25,3 +25,16 @@ One example was the presentation of the 3 possible options (Rock, Paper and Scis
 
         - JavaScript        
             ![javascript](tests/images/testing-js.png)
+
+### Lighthouse
+
+Lighthouse is an open-source automated tool to audit a page based on its Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). This audit was performed for Mobile and Desktop, results were good as seen below.
+
+#### Desktop
+
+![lighthouse-desktop-index](tests/images/lighthouse-desktop.png)
+
+#### Mobile
+
+![lighthouse-mobile-index](tests/images/lighthouse-mobile.png)
+
