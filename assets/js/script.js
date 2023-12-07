@@ -7,8 +7,12 @@ let cpuImage = document.getElementById("cpu-image");
 let cpuScore = document.getElementById("cpu-score");
 let ties = document.getElementById("ties");
 let result = document.getElementById("result");
+const reset = document.getElementById("reset");
 
-/* Add event listener to all links */
+/**
+ * Add event listener to all links, gets the choice from
+ * user and calls mainGame function with the chosen option
+ */
 for (let link of links) {
     link.addEventListener("click", function () {
         let playerChoice = this.getAttribute("data-choice");
@@ -65,3 +69,10 @@ function checkWinner(player, cpu) {
         }
     }
 }
+
+/* Reset Button */
+reset.addEventListener("click", function () {
+    playerScore.innerText = 0;
+    cpuScore.innerText = 0;
+    ties.innerText = 0;
+});
