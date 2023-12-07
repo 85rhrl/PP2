@@ -90,3 +90,12 @@ The code used for the favicon is based from the Love Running walkthrough project
 The JavaScript code is based on the Portfolio Project Scope (ULTIMATE Rock Paper Scissors) video from Code Institute.
 
 The code for setting the background color of the Ties h3 element and Rules p element is based from a question posted on [Stackoverflow](https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti).
+
+### Content
+The Victory hand (Scissors) emoji for the favicon was downloaded from [favicon.io](https://favicon.io/emoji-favicons/victory-hand) which in turn comes from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
+
+The Rock, Paper, Scissors hand gestures were downloaded from [flaticon.com](https://www.flaticon.com/free-icon/rock-paper-scissors_6727646)
+
+The GitHub icon used for the footer link was taken from [fontawesome.com](https://fontawesome.com/icons/square-github?f=brands&s=solid)
+
+The Dosis font was downloaded from [Google Fonts](https://fonts.google.com/specimen/Dosis)
