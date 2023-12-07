@@ -31,7 +31,7 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
     ![Header](docs/images/01-header.png)
 
 - __Selection Area__
-    - To start playing "Rock, Paper, Scissors!" the user must chose either Rock, Paper or Scissors, this can be done by clicking either of the options which are presented as images of the Rock, Paper or Scissors hand gestures respectively.
+    - To start playing "Rock, Paper, Scissors!" the user must chose either Rock, Paper or Scissors, this can be done by clicking/tapping either of the options which are presented as images of the Rock, Paper or Scissors hand gestures respectively.
     - Under every option there is a text describing the hand gesture for those who haven't played the game.
 
     ![Selection Area](docs/images/02-choices.png)
@@ -46,9 +46,13 @@ A minimalistic but attractive design was chosen, there is no need for a substanc
 
     ![Game End](docs/images/04-results-end.png)
 
+- __Reset Scores__
+    - Under the Results area a Reset Scores button is displayed. When clicked/tapped all scores are reset to zero.
+
+    ![Reset Scores](docs/images/07-reset.png)
+
 - __Rules__
     - The rules of the game are presented under the Results area.
-    - A short explanation of how to reset the scores is also presented to the user.
 
     ![Rules](docs/images/05-rules.png)
 
