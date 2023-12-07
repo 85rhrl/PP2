@@ -121,6 +121,8 @@ main h2 {
     padding: 0.5rem;
     font-weight: 700;
     border-radius: 0.5rem;
+    color: black;
+    border-color: black;
 }
 
 footer {
